@@ -1,0 +1,45 @@
+.bg-light{
+    background-color: orangered !important;
+}
+.logo{
+    width: 6%;
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar-light .navbar-toggler{
+    color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff !important;
+}
+.nav-link{
+    cursor: pointer;
+}
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .default {
+    border-color: orangered;
+    color: orangered;
+  }
+  
+  .default:hover {
+    background-color: orangered;
+    color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .logo {width: 16%;}
+  }
+  /* @media only screen and (min-width: 768px) {
+    .logo {width: 10%;}
+  }
+  @media only screen and (min-width: 1440px) {
+    .logo {width: 6%;}
+  } */ 

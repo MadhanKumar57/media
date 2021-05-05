@@ -25,12 +25,18 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/jsonData"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-toastr/toastr.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -124,5 +130,8 @@
       }
     }
   },
-  "defaultProject": "MediaProject"
+  "defaultProject": "MediaProject",
+  "cli": {
+    "analytics": "aa2fecef-fb06-4e0d-942d-22e15bf65c97"
+  }
 }

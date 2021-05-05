@@ -1,0 +1,32 @@
+{
+  "UserData": [
+    {
+      "id": "1",
+      "userid": "ashok@gmail.com",
+      "username":"Ashok Kumar",
+      "password":"Ashok@29",
+      "isActive": "1"
+    },
+    {
+      "id": "2",
+      "userid": "madhan@gmail.com",
+      "username":"MadhanKumar",
+      "password":"Madhan@#$29",
+      "isActive": "1"
+    },
+    {
+      "id": "3",
+      "userid": "bbcmedia@gmail.com",
+      "username":"BBC",
+      "password":"Bbc@2021",
+      "isActive": "1"
+    },
+    {
+      "id": "4",
+      "userid": "vetri@gmail.com",
+      "username":"Vetri",
+      "password":"Vetri@29",
+      "isActive": "0"
+    }
+  ]
+}
