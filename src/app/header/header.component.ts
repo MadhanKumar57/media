@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
   length = 0;
   loginform !: FormGroup;
   public userlist: any = [];
-  
+
   constructor(public toastr: ToastrService, public login: FormBuilder, private router: Router, private json: JsonServiceService,) { }
   
   ngOnInit(): void {
@@ -45,7 +45,7 @@ export class HeaderComponent implements OnInit {
           localStorage.setItem('userId', user[0].userid);
           localStorage.setItem('userName', user[0].username);
           this.name = localStorage.setItem('userName', user[0].username);
-          this.toastr.success('Welcome', 'Login Successfully')
+          this.toastr.success('Login Successfully')
           window.location.href = '/Home-Page';
         }
         else if (user.find((x: any) => x.isActive == 0)) {
